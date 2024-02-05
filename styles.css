@@ -1,0 +1,45 @@
+:root {
+    --base-color: 210, 60%;
+    --base-font-color: 40, 100%;
+}
+
+header{
+    background: hsl(var(--base-color), 20%);
+    text-align: center;
+    padding: 1rem;
+    margin-bottom: 3rem;
+    color: hsl(var(--base-color), 95%);
+}
+
+h2{
+    margin-top: 2rem;
+    color: hsl(var(--base-color), 60%);
+}
+footer{
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+    border-top: 1px solid black;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    padding-left: 1px;
+}
+a{
+    padding: 0.5rem;
+    margin-right: 2rem;
+    text-decoration: none;
+    background: white;
+    color: hsl(var(--base-color), 70%);
+    box-shadow: 0px 1px 2px 1px ;
+    padding-left: 0.5rem;
+    
+}
+
+a:hover{
+    font-size: 20px;
+    font-size-adjust: 5px;
+    box-shadow: 2px 2px 5px 2px;
+}
