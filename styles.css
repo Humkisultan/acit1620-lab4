@@ -32,7 +32,7 @@ a{
     padding: 0.5rem;
     margin-right: 2rem;
     text-decoration: none;
-    background: white;
+    background: hsl(var(--base-color), 100%);
     color: hsl(var(--base-color), 70%);
     box-shadow: 0px 1px 2px 1px ;
     padding-left: 0.5rem;
